@@ -1,6 +1,10 @@
 import streamlit as st
 
-from database import create_database
+from database import (
+   create_database,
+   create_user,
+   authenticate_user
+) 
 
 from styles import apply_theme
 
